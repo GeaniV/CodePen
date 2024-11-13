@@ -1,0 +1,107 @@
+/* Reseteo de márgenes y definición de la fuente global */
+body {
+   margin: 0;
+   font-family: sans-serif;
+}
+
+/* Contenedor principal de los enlaces, con fondo negro y distribución en fila */
+.link-wrapper {
+   background-color: #000000;
+   padding: 14px 0;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+/* Estilo para el logo dentro del contenedor de enlaces */
+.link-wrapper img {
+   width: 14%;
+   padding: 14px 5px;
+}
+
+/* Estilo para los enlaces dentro del contenedor de enlaces */
+.link-wrapper a {
+   text-decoration: none;
+   color: white;
+}
+
+/* Contenedor de enlaces centrados, con disposición en columna */
+.link-wrapper > .center-links {
+   display: flex;
+   flex-direction: column;
+   margin-right: 90px;
+}
+
+/* Enlace de "explorar" con un color dorado */
+.link-wrapper > .center-links > .explore a {
+   color: #EED669;
+   font-size: 1.3em;
+   font-weight: 600;
+}
+
+/* Menú principal con disposición en fila */
+.link-wrapper > .center-links > .menu {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+}
+
+/* Estilo de los enlaces dentro del menú principal */
+.link-wrapper > .center-links > .menu a {
+   padding: 10px 10px  0 0;
+   font-size: 1.4em;
+   font-weight: 800;
+   line-height: 1;
+}
+
+/* Estilo para los enlaces del menú con clase 'grey-menu', color gris */
+.link-wrapper > .center-links > .menu > .grey-menu a {
+   color: #7B7E8B;
+   font-size: 1.4em;
+   font-weight: 600;
+   padding: 10px;
+   margin-left: 30px;
+   line-height: 1.2;
+}
+
+/* Icono dentro del elemento del menú 'grey-menu' */
+.link-wrapper > .center-links > .menu > .grey-menu i {
+   color: #7B7E8B;
+}
+
+/* Estilo para la parte derecha del contenedor de enlaces */
+.link-wrapper > .right-links {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   font-size: 1.4em;
+   font-weight: 600;
+}
+
+/* Estilo para los elementos de la derecha, como los botones de acción */
+.link-wrapper > .right-links > .item {
+   background-color: #36383F;
+   padding: 20px 25px;
+   border-radius: 5px;
+   margin-right: 15px;
+}
+
+/* Estilos para el icono de búsqueda */
+.link-wrapper > .right-links > .icon-search {
+   padding: 10px 10px;
+   margin-right: 10px;
+   font-size: 1.5em;
+}
+
+/* Color del icono de búsqueda */
+.link-wrapper > .right-links > .icon-search i {
+   color: #7B7E8B;
+}
+
+/* Estilos del iconos dentro de los elementos de la derecha */
+.link-wrapper > .right-links > .item i {
+   color: #4AC776;
+   padding: 0 0 0 10px;
+   font-weight: bold;
+   font-size: 1.2em;
+}
